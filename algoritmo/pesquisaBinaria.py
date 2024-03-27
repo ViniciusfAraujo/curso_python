@@ -14,7 +14,7 @@ def binary_search(arr, elemento):
 
 # Exemplo de uso:
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-elemento = 100
+elemento = 10
 indice = binary_search(arr, elemento)
 
 if indice != -1:
