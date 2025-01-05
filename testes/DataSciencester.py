@@ -36,6 +36,8 @@ agv_connection = total_connections / num_users
 num_friends_by_id = [(user["id"], number_of_friends(user))
                             for user in users]
 
-sorted(num_friends_by_id,
-            key=lambda(user_id, num_friends): num_friends, 
+sorted_list = sorted(num_friends_by_id,
+            key=lambda num_friends: num_friends,
             reverse=True)
+
+print(sorted_list)
